@@ -1,0 +1,68 @@
+* {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #1F5DA6;
+  text-align: center;
+}
+
+.header img {
+  float: left;
+  display: inline;
+}
+
+
+.header h1 {
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  display: inline;
+  position: relative;
+  margin: 0 350px 0 0;
+  padding: 0;
+}
+
+h2 {
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  margin: 0;
+}
+
+.nav {
+  text-align: center;
+  width: 100%;
+}
+
+ul{
+  padding: 0;
+}
+
+.nav li {
+  font-family: 'Hind Guntur', sans-serif;
+  display: inline;
+  font-size: 20px;
+  font-weight: 500px;
+  margin: 20px 60px;
+}
+
+#first {
+  color: #FEC907;
+}
+
+#second {
+  color: #E21E36;
+}
+
+#third {
+  color: #D6FFFF;
+}
+
+#fourth {
+  color: yellowgreen;
+}
