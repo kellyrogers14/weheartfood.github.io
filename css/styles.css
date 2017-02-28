@@ -1,6 +1,6 @@
-* {
+/** {
   border: 1px solid rgba(0, 0, 0, 0.3);
-}
+}*/
 
 body{
   padding: 0;
@@ -9,9 +9,17 @@ body{
   text-align: center;
 }
 
+header {
+  display: inline-block;
+  text-align: center;
+}
+
 .header img {
+  width: 175px;
   float: left;
-  display: inline;
+  z-index: 555;
+  position: relative;
+  padding-left: 20px;
 }
 
 
@@ -19,13 +27,16 @@ body{
   color: white;
   font-family: 'Hind Guntur', sans-serif;
   font-size: 80px;
-  font-weight: 800;
-  letter-spacing: 8px;
+  font-weight: 500;
+  letter-spacing: 12px;
   word-spacing: 10px;
-  display: inline;
   position: relative;
-  margin: 0 350px 0 0;
-  padding: 0;
+  margin: auto;
+  margin-left: 200px;
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 20px;
+  width: 90%;
 }
 
 h2 {
@@ -56,7 +67,7 @@ ul{
 }
 
 #second {
-  color: #E21E36;
+  color: orchid;
 }
 
 #third {
@@ -65,4 +76,61 @@ ul{
 
 #fourth {
   color: yellowgreen;
+}
+
+.hood1{
+  border: 2px solid #FEC907;
+  margin: 40px auto;
+  padding: 10px 0px 0px 0px;
+  width: 73%;
+  border-radius: 10px;
+}
+
+.hood2{
+  border: 2px solid orchid;
+  margin: 60px auto;
+  padding: 10px 0px 0px 0px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.hood3{
+  border: 2px solid #D6FFFF;
+  margin: 60px auto;
+  padding: 10px 0px 0px 0px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.hood4{
+  border: 2px solid yellowgreen;
+  margin: 60px auto;
+  padding: 10px 0px 0px 0px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.hood-img{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.hood-description li{
+  margin: 0;
+  list-style: none;
+}
+
+.explore1{
+  background-color: #FEC907;
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 16px;
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px auto;
+  width: 98%;
+  display: block;
+  border-radius: 10px;
 }
