@@ -68,6 +68,7 @@ ul{
   font-size: 20px;
   font-weight: 500px;
   margin: 20px 60px;
+  text-decoration: none;
 }
 
 #first {
@@ -98,7 +99,7 @@ ul{
   border: 2px solid orchid;
   margin: 60px auto;
   padding: 10px 0px 0px 0px;
-  width: 90%;
+  width: 73%;
   border-radius: 10px;
 }
 
@@ -106,7 +107,7 @@ ul{
   border: 2px solid #D6FFFF;
   margin: 60px auto;
   padding: 10px 0px 0px 0px;
-  width: 90%;
+  width: 73%;
   border-radius: 10px;
 }
 
@@ -114,7 +115,7 @@ ul{
   border: 2px solid yellowgreen;
   margin: 60px auto;
   padding: 10px 0px 0px 0px;
-  width: 90%;
+  width: 73%;
   border-radius: 10px;
 }
 
@@ -160,7 +161,7 @@ ul{
 
 .explore3{
   background-color: #D6FFFF;
-  color: white;
+  color: #1F5DA6;
   font-family: 'Hind Guntur', sans-serif;
   font-size: 16px;
   padding: 11px;
@@ -192,4 +193,9 @@ footer{
   color: white;
   font-family: 'Hind Guntur', sans-serif;
   font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
 }
