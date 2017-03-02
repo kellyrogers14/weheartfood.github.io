@@ -7,5 +7,7 @@ function main() {
   $('.hoods').fadeIn(3500);
 };
 
+  
+
 
 $(document).ready(main);
