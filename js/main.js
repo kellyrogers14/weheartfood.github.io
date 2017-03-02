@@ -1,13 +1,13 @@
 function main() {
   $('.header').hide();
-  $('.header').fadeIn(1000);
+  $('.header').fadeIn(3500);
   $('.nav').hide();
-  $('.nav').fadeIn(2000);
+  $('.nav').fadeIn(1000);
   $('.hoods').hide();
-  $('.hoods').fadeIn(3500);
+  $('.hoods').fadeIn(2000);
 };
 
-  
+
 
 
 $(document).ready(main);
