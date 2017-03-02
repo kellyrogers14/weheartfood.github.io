@@ -1,6 +1,8 @@
 function main() {
   $('.header').hide();
-  $('.header').fadeIn(3500);
+
+  $('.header').fadeIn(4000);
+
   $('.nav').hide();
   $('.nav').fadeIn(1000);
   $('.hoods').hide();
