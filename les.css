@@ -1,0 +1,233 @@
+/** {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #1F5DA6;
+  text-align: center;
+}
+
+.header img {
+  width: 175px;
+  float: left;
+  z-index: 555;
+  position: relative;
+  padding-left: 20px;
+}
+
+.header h1 {
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 80px;
+  letter-spacing: 12px;
+  word-spacing: 10px;
+  position: relative;
+  margin: auto;
+  margin-left: 175px;
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 20px;
+  width: 90%;
+}
+
+h2 {
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+p {
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.nav {
+  text-align: center;
+  width: 100%;
+}
+
+ul{
+  padding: 0;
+}
+
+.nav li {
+  font-family: 'Hind Guntur', sans-serif;
+  display: inline;
+  font-size: 20px;
+  font-weight: 500px;
+  margin: 20px 60px;
+  text-decoration: none;
+}
+
+#first {
+  color: #FEC907;
+}
+
+#second {
+  color: orchid;
+}
+
+#third {
+  color: #D6FFFF;
+}
+
+#fourth {
+  color: yellowgreen;
+}
+
+.hood1{
+  border: 2px solid #FEC907;
+  margin: 40px auto;
+  padding: 10px 0px 0px 0px;
+  width: 73%;
+  border-radius: 10px;
+}
+
+.hood2{
+  border: 2px solid orchid;
+  margin: 60px auto;
+  padding: 10px 0px 0px 0px;
+  width: 73%;
+  border-radius: 10px;
+}
+
+.hood3{
+  border: 2px solid #D6FFFF;
+  margin: 60px auto;
+  padding: 10px 0px 0px 0px;
+  width: 73%;
+  border-radius: 10px;
+}
+
+.hood4{
+  border: 2px solid yellowgreen;
+  margin: 60px auto;
+  padding: 10px 0px 0px 0px;
+  width: 73%;
+  border-radius: 10px;
+}
+
+.hood-img{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.hood-description li{
+  margin: 0;
+  list-style: none;
+}
+
+.explore1{
+  background-color: #FEC907;
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 16px;
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px auto;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.explore2{
+  background-color: orchid;
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 16px;
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px auto;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.explore3{
+  background-color: #D6FFFF;
+  color: #1F5DA6;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 16px;
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px auto;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.explore4{
+  background-color: yellowgreen;
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 16px;
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px auto;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+/*LES CSS*/
+
+.Spot1{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.Spot1 h3{
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+.Spot1 h4{
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 0;
+  margin-top:0;
+}
+
+.Spot1 h5{
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+
+footer{
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
