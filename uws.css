@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #1F5DA6;
+  text-align: center;
+}
+
+.header img {
+  width: 175px;
+  float: left;
+  z-index: 555;
+  position: relative;
+  padding-left: 20px;
+}
+
+.header h1 {
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 80px;
+  letter-spacing: 12px;
+  word-spacing: 10px;
+  position: relative;
+  margin: auto;
+  margin-left: 175px;
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 20px;
+  width: 90%;
+}
+
+h2 {
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+p {
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.nav {
+  text-align: center;
+  width: 100%;
+}
+
+ul{
+  padding: 0;
+}
+
+.nav li {
+  font-family: 'Hind Guntur', sans-serif;
+  display: inline;
+  font-size: 20px;
+  margin: 20px 60px;
+  text-decoration: none;
+}
+
+
+#first {
+  color: #FEC907;
+}
+
+#second {
+  color: orchid;
+}
+
+#third {
+  color: #D6FFFF;
+}
+
+#fourth {
+  color: yellowgreen;
+}
+
+.uws_food_place {
+  border: 2px solid orchid;
+  margin: 40px auto;
+  padding: 10px 0px 0px 0px;
+  width: 73%;
+  border-radius: 10px;
+}
+
+.place1-description {
+  margin: 0;
+  list-style: none;
+}
+
+
+h2 {
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+p {
+ color: white;
+ font-family: 'Hind Guntur', sans-serif;
+ font-size: 15px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.explore2 {
+  background-color: orchid;
+  color: white;
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 16px;
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px auto;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
