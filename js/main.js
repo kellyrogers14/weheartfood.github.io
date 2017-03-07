@@ -19,7 +19,7 @@ var returncode = $(".menuitem");
 returncode.on("click", function(){
   var name = $("#garlic").val();
   alert("Chicken Parm Garlic Knots");
-})
+});
 
 
 $(document).ready(main);
