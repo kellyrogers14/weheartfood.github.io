@@ -82,6 +82,11 @@ ul{
   color: yellowgreen;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .uws_food_place {
   border: 2px solid orchid;
   margin: 40px auto;
